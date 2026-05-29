@@ -1,15 +1,17 @@
 # CHANGELOG
 
-All notable changes to this project will be documented in this file.
-
+All notable changes to the Guardian of Life web development project will be documented in this file.
 This project follows Semantic Versioning.
 
 ## [1.0.0] 
 ### Added
-- xyz
+- Created comprehensive `CHANGELOG.md` to track project versions.
+- Added explicit user persona and target audience analysis to documentation.
+- Embedded structured HTML comment blocks across all core templates.xyz
 
 ### Changed
-- xyz
+- Refactored `index.html` structure from generic divisions to semantic HTML5 elements (`<header>`, `<main>`, `<section>`).
+- Enhanced Call-To-Action (CTA) formatting on the Homepage to align with UI proposal guidelines.
 
 ### Fixed
 - xyz
