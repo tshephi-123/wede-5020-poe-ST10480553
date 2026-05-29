@@ -8,7 +8,6 @@ As required by Section 3.4 of the evaluation parameters, the platform has been c
 ### Desktop Render Environment
 * **Resolution Check:** 1440px width scaling
 * **Layout Rule:** Multi-column flex rows, full structural visibility.
-* **Evidence Hook:** `![Desktop Layout View](screenshots/desktop-render.png)`
 
 ### Tablet Render Environment
 * **Resolution Check:** 768px width viewport testing (iPad Optimization)
