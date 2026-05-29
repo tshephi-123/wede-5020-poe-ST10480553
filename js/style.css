@@ -69,7 +69,7 @@ header {
     font-size: 1.5rem;
     font-weight: 800;
     color: var(--primary-color);
-    text-decoration: none;
+    text-decoration:solid;
 
 }
 .nav-menu {
