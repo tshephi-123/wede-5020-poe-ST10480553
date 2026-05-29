@@ -3,7 +3,7 @@
 Comprehensive development archive for the Guardian of Life Crisis Pregnancy Non-Profit Portal.
 
 ## 1. Multi-Device Viewport Testing Logs
-As required by Section 3.4 of the evaluation parameters, the platform has been checked across key device footprints using browser emulation toolsets.
+As required by the evaluation parameters, the platform has been checked across key device footprints using browser emulation toolsets.
 
 ### Desktop Render Environment
 * **Resolution Check:** 1440px width scaling
