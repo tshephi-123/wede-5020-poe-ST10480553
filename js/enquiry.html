@@ -5,13 +5,38 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Enquiry | Guardian of Life</title>
         <link rel="stylesheet" href="style.css">
+
+        <style>
+        .form-group {
+            margin-bottom: 1.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+        input, select, textarea {
+            padding: 0.85rem;
+            font-size: 1rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-family: var(--font-main);
+            width: 100%;
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: 2px solid var(--secondary-color);
+        }
+    </style>
         </head>
         <body>
         <header>
+            <nav class="nav-container">
             <a href="enquiry.html"><img src="tshephi-123/wede-5020-poe-ST10480553/img/Gemini_Generated_Image_h3kscnh3kscnh3ks.png"
             alt="Guardian of Life Logo" width="150" style="height: 50px;"></a>
-            <nav>
-                <ul>
+            
+                <ul class="nav-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="service.html">Services</a></li>
@@ -22,22 +47,40 @@
         </header>
 
         <main>
-            <h2>Get Involved</h2>
-            <form action="#" method="post">
-                <label for="name">First Name:</label><br>
-                <input type="text" id="name" name="name" required><br>
-                <label for="name">Last Name:</label><br>
-                <input type="text" id="name" name="name" required><br>
-                <label for="type">How can you help?</label><br>
-                <select id="type" name="type">
-                    <option value="volunteer">Volunteer</option>
-                    <option value="sponsor">Sponsor</option>
-                    <option value="donor">Donor</option>
-                </select><br>
-
-            <label for="message">Message:</label><br><textarea id="message" name="message"></textarea><br>
-
-            <button type="submit">Submit Enquiry</button></form>
+            <section style="max-width: 600px; margin: 0 auto;">
+                <h1>Connect With Our Team</h1>
+            <p>If you are in immediate need of guidance, wish to join our active volunteer groups, or plan to register as a service partner, please submit your details below.</p>
+            
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="username">Full Name:</label>
+                    <input type="text" id="username" name="username" required placeholder="Jane Doe">
+                </div>
+                
+                <div class="form-group">
+                    <label for="useremail">Email Address:</label>
+                    <input type="email" id="useremail" name="useremail" required placeholder="jane@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="purposeselect">I am reaching out to:</label>
+                    <select id="purposeselect" name="purposeselect" required>
+                        <option value="">-- Select Purpose --</option>
+                        <option value="crisis">Seek Emergency Pregnancy Support</option>
+                        <option value="volunteer">Apply to Volunteer as a Care Worker</option>
+                        <option value="donate">Inquire About Making Material Donations</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="usermessage">Message details:</label>
+                    <textarea id="usermessage" name="usermessage" rows="5" required placeholder="How can our community help you today?"></textarea>
+                </div>
+                
+                <button type="submit" class="cta-button" style="border: none; cursor: pointer; width: 100%;">Submit Secured Enquiry</button>
+            </form>
+            </section>
+            
 
         </main>
         <footer>
