@@ -9,12 +9,15 @@ Guardian of Life
 Guardian of Life was started by a group of volunteers; who wanted to help expectant mothers in crisis pregnancies.  According to (D.G, 2069) there have been 100 000 registered abortions per year. Over the years, we’ve been lucky enough to support over 200 families with resources and counselling. 
 Our main mission is to advocate for the value of human life, and we want to create a community where every mom feels supported and every child is welcomed. 
 We are mainly looking to help pregnant women seeking help, people who want to donate, volunteers, and social workers who need resources. 
+Our website is targeted at women who are struggling with their pregnancies and seek help, donors who want a secure pathway to give financial and or material support. To ensure that our website effectively serves these people we need to make sure it is fast and offers confidential emotional and medical support through social workers. 
 
 ## Website Goals and Objectives
 
 We want our website to be a place where people can get 24/7 access to information about our services, volunteers and sign up, and even donate online. If our website is successful, we’ll think we’ve done something right if:
 •	We have volunteers apply to help us
 •	People download our Guide to Resources PDF 
+
+## 
 
 ## Timeline and Milestones
 
