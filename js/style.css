@@ -185,3 +185,50 @@ img,picture {
     display: block;
 }
 }
+
+
+//custom transistion & accordion styles
+.accordion {
+    background-color: var(--text-light);
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    overflow: hidden;   
+}
+.accordion-header {
+    padding: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+    width: 100%;
+    background-color: #edf2f7;
+    text-align: left;
+    border: none;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+.accordion-header:hover {
+    background-color: #e2e8f0;
+}
+.accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s cubic-bezier(0,1,0,1);
+    padding: 0 1.25rem;
+}
+.accordian-item.active .accordion-body {
+    transition: max-height 0.3s cubic-bezier(1,0,1,0)
+    padding: 1.25rem;
+}
+
+/*form validation styles*/
+.error-message {
+    color: var(--emergency-color);
+    font-size: 0.875rem;
+    margin-top: 0.35rem;
+    min-height: 1.25rem;
+    font-weight: 500;
+}
