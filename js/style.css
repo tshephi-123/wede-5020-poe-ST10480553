@@ -63,6 +63,7 @@ header {
     padding: 1rem 2rem;
     margin: 0 auto;
     max-width: 1200px;
+    background-color: var(--text-light);
 }
 
 img[src="wede-5020-poe-ST10480445/js/img/Gemini_Generated_Image_h3kscnh3kscnh3ks.png"] {
