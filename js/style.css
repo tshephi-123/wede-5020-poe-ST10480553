@@ -16,6 +16,7 @@
 
     --font-main: 'Inter', system-ui, -apple-system, sans-serif;
     --line-height-base: 1.6;
+    --text-light: #ffffff;
 }
 
 html {
@@ -70,7 +71,7 @@ img[src="wede-5020-poe-ST10480445/js/img/Gemini_Generated_Image_h3kscnh3kscnh3ks
     font-size: 1.5rem;
     font-weight: 800;
     color: var(--primary-color);
-    text-decoration:solid;
+    text-decoration: none;
 
 }
 .nav-menu {
@@ -96,7 +97,7 @@ main {
 
 /* Visual Components & Containers */
 .hero-card {
-    background: linear-gradient(135eg, #ebf8ff 0%, #e6fffa 100%);
+    background: linear-gradient(135deg, #ebf8ff 0%, #e6fffa 100%);
     padding: 4rem 3rem;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
@@ -187,8 +188,7 @@ img,picture {
 }
 }
 
-
-//custom transistion & accordion styles
+/* custom transition & accordion styles */
 .accordion {
     background-color: var(--text-light);
     border: 1px solid #e2e8f0;
@@ -220,8 +220,8 @@ img,picture {
     transition: max-height 0.3s cubic-bezier(0,1,0,1);
     padding: 0 1.25rem;
 }
-.accordian-item.active .accordion-body {
-    transition: max-height 0.3s cubic-bezier(1,0,1,0)
+.accordion-item.active .accordion-body {
+    transition: max-height 0.3s cubic-bezier(1,0,1,0);
     padding: 1.25rem;
 }
 
