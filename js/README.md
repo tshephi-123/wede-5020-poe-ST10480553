@@ -35,22 +35,6 @@ As for the timeline, here is what we are thinking:
 - Designed a eternal 'style.css' stylesheet
 - Connected the external 'style.css'
 
-## 1. Multi-Device Viewport Audit 
-
-### Desktop Layout Render Environment
-* **Resolution Spec:** `1440px` viewport width testing grid pattern.
-* **Layout Rule Behavior:** Multi-column layout structure using rigid desktop grid patterns and responsive Flexbox alignments. Full menu asset visibility.
-
-
-### Tablet Layout Render Environment
-* **Resolution Spec:** `768px` viewport width optimization matrix (iPad native dimensions).
-* **Layout Rule Behavior:** Dropdown component padding values contract slightly. Dynamic card layouts automatically fluidize text spacing properties to avoid wrapping errors.
-
-
-### Mobile Crisis Render Environment
-* **Resolution Spec:** `375px` / `480px` layout boundary parameters (iPhone styling thresholds).
-* **Layout Rule Behavior:** Structural content collapses into a vertical single-column profile. Navigation lists fluidly transition into a clear block-stacking layout, while form inputs and call-to-action buttons expand to full width to ensure large touch targets.
-
 ## Sitemap
 
 ![Website Sitemap](<img width="729" height="361" alt="Guardian of Life SiteMap drawio" src="https://github.com/user-attachments/assets/6116c39b-c25e-4553-a8e0-d2d840f2398e" />)
